@@ -12,6 +12,7 @@ RUN npm install -g pnpm
 COPY package*.json ./
 
 # 安装构建依赖
+RUN npm config set registry http://mirrors.cloud.tencent.com/npm/
 RUN pnpm install
 
 # 复制所有项目文件
