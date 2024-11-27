@@ -29,12 +29,12 @@ const goDouban = (movie) => {
 }
 
 onMounted(async () => {
-  if (doubanCache.value === 'aipan.me') {
+  if (doubanCache.value === 'sou.xindu.site') {
     doubanData.value = doubanStore.doubanData
   } else {
     await doubanStore.getDoubanData()
     doubanData.value = doubanStore.doubanData
-    doubanCache.value = 'aipan.me'
+    doubanCache.value = 'sou.xindu.site'
   }
 })
 </script>
@@ -45,7 +45,7 @@ onMounted(async () => {
       <div class="flex items-center justify-center gap-4 hover:scale-105 transition-transform duration-300">
         <img class="w-24 h-24" src="@/assets/my-logo.png" alt="logo">
         <div class="text-center">
-          <h1 class="text-4xl text-gray-800 font-bold dark:text-white bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">AIPAN.ME</h1>
+          <h1 class="text-4xl text-gray-800 font-bold dark:text-white bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">SOU.XINDU.SITE</h1>
           <p class="text-gray-600 text-sm dark:text-gray-300 mt-2">搜一下 - 资源随心，娱乐无限</p>
         </div>
       </div>

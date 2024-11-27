@@ -35,7 +35,7 @@ export default defineNuxtConfig({
                 { name: 'format-detection', content: 'telephone=no' },
                 { property: 'og:title', content: '搜一下：资源随心，音乐下载与影视聚合平台' },
                 { property: 'og:description', content: '搜一下是一个开源免费的资源搜索平台，提供网盘、音乐、影视等多种资源，一站式服务，供学习使用。' },
-                { property: 'og:image', content: 'https://aipan.me/logo.png' },
+                { property: 'og:image', content: 'https://sou.xindu.site/logo.png' },
                 { property: 'og:url', content: 'https://sou.xindu.site' },
                 { name: 'twitter:card', content: 'summary_large_image' },
                 { name: 'twitter:title', content: '搜一下：资源随心，音乐下载与影视聚合平台' },
