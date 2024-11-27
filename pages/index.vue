@@ -46,24 +46,24 @@ onMounted(async () => {
         <img class="w-24 h-24" src="@/assets/my-logo.png" alt="logo">
         <div class="text-center">
           <h1 class="text-4xl text-gray-800 font-bold dark:text-white bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">AIPAN.ME</h1>
-          <p class="text-gray-600 text-sm dark:text-gray-300 mt-2">爱盼 - 资源随心，娱乐无限</p>
+          <p class="text-gray-600 text-sm dark:text-gray-300 mt-2">搜一下 - 资源随心，娱乐无限</p>
         </div>
       </div>
     </div>
     <div class="max-w-[1240px] mx-auto mt-[30px]">
       <div class="w-[85%] md:w-[700px] mx-auto">
         <div class="relative group">
-          <input 
-            class="w-full pl-6 pr-[70px] py-4 rounded-full text-sm bg-white dark:bg-gray-700 border-2 border-transparent 
+          <input
+            class="w-full pl-6 pr-[70px] py-4 rounded-full text-sm bg-white dark:bg-gray-700 border-2 border-transparent
             focus:border-blue-500 dark:focus:border-blue-400 outline-none transition-all duration-300 shadow-lg
             dark:text-white placeholder-gray-400 dark:placeholder-gray-300"
-            v-model="searchKeyword" 
-            placeholder="请输入关键词搜索" 
+            v-model="searchKeyword"
+            placeholder="请输入关键词搜索"
             @keydown.enter="search(searchKeyword)"
           />
-          <button 
+          <button
             type="button"
-            class="search-btn absolute right-3 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full 
+            class="search-btn absolute right-3 top-1/2 -translate-y-1/2 w-12 h-12 flex items-center justify-center rounded-full
             bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700
             text-white transition-all duration-300 transform hover:scale-105 active:scale-95
             shadow-lg hover:shadow-blue-500/50 dark:hover:shadow-blue-600/30"
